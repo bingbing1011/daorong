@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dao-rong",
+        "command": "dao-rong:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "dao-rong",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dao-rong:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
